@@ -16,7 +16,7 @@ How does one’s socioeconomic status relate to the perceived quality of life of
 
 - 2024 BRFSS Survey Data and Documentation
 - Smart Location Database
-- Supplemental 2023 SAHIE Estimates
+- Current Employment Statistics
 
 ## Trustworthiness and Reputability
 
@@ -32,21 +32,18 @@ Although the data source label explains how information is collected, it does no
 
 ### Supplemental 2023 SAHIE Estimates
 
-There are several visualizations, working papers, publications, and a coding tool that comes along with the SAHIE dataset. The API also works as a working codebook for the datasets.
+The Current Employment Statistics (CES) program is a Federal-State cooperative effort in which monthly surveys are conducted to provide estimates of employment, hours, and earnings based on payroll records of business establishments. The CES survey is based on approximately 119,000 businesses and government agencies representing approximately 629,000 individual worksites throughout the United States.
 
-Starting with the 2008 SAHIE estimates, the SAHIE program updated its methodology to incorporate the estimates of health insurance coverage from the American Community Survey (ACS). The incorporation of the ACS into the modeling procedures has allowed for more detailed income group data as well as a higher level of precision in the estimates.
+CES data reflect the number of nonfarm, payroll jobs. It includes the total number of persons on establishment payrolls, employed full- or part-time, who received pay (whether they worked or not) for any part of the pay period that includes the 12th day of the month. Temporary and intermittent employees are included, as are any employees who are on paid sick leave or on paid holiday. Persons on the payroll of more than one establishment are counted in each establishment. CES data excludes proprietors, self-employed, unpaid family or volunteer workers, farm workers, and household workers. Government employment covers only civilian employees; it excludes uniformed members of the armed services.
 
-Because of how it incorporates surveys to the data, there is a greater issue of response and reporting bias, lending to a more opaque perspective of health insurance estimates.
-
-Comparisons between ACS-based SAHIE estimates and estimates from before the 2008 methodology change are not recommended. Comparisons within the ACS-based series should follow Census Bureau guidance.
+The Bureau of Labor Statistics (BLS) of the U.S. Department of Labor is responsible for the concepts, definitions, technical procedures, validation, and publication of the estimates that State workforce agencies prepare under agreement with BLS.
 
 ## Degree of Relevance to the Research Question
 
 ### Supplemental 2023 SAHIE Estimates
 
-The collection method for the SAHIE dataset can derive conclusions of some form of implicit bias within the data, as it typically does mail-in, telephone, live in person, or via online.
-
-Some proxies that would have to be considered are datasets pertaining to the income of the individual interviewed, as this dataset provides only one angle into the perspective of an individual’s quality of life.
+There is some marginal level of relevance to the topic at hand, as this data set offers insight into how the job market stands,
+and through which methods a majority of individuals are making a living.
 
 ### 2024 BRFSS
 
@@ -58,7 +55,8 @@ In a perfect world, I would be able to add the actual verified medical records o
 
 ### Population Coverage
 
-The American Community Survey requires that individuals have some form of address in order to complete said survey. This in of itself creates a large blindspot within the data, with respect to unhoused or individuals of a more transient habituation. There is no way to really have a more robust method to encapsulate the rate of health insurance coverage because of this.
+With recent developments with respect to the BLS, there is some level of disingenuity to how the data is collected recently,
+and how truly accurate it is as a whole. 
 
 ### Interpretation of Results
 
@@ -72,7 +70,8 @@ In the Smart Location Database, one row represents one census block group, as in
 
 ### Supplemental 2023 SAHIE Estimates
 
-Within SAHIE, each row represents model-based health insurance estimates for a demographic and income group within a state or county, rather than an individual survey respondent.
+Each row represents an individual industry within a county, including the appending of the entire state itself towards the end
+of the dataset. 
 
 ### 2024 BRFSS
 
@@ -90,7 +89,7 @@ The dataset also includes over 450,000 respondents across the United States, giv
 
 ### Comparison with SAHIE
 
-The SAHIE dataset provides a narrower perspective into the quality of life of the individual based on certain factors and attributes within their life. Compared to the range and scope of the BRFSS dataset, it follows that perhaps SAHIE may serve better as an auxiliary source rather than a focus for the research question.
+The CES offers a marginal perspective to how the economy looks in the state, but does not provide any individual detail with respect to the quality of life of the individual.
 
 ### Comparison with the Smart Location Database
 
