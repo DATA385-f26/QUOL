@@ -21,6 +21,8 @@ website:
           href: brandontran.qmd
         - text: "Johanna Alvarado"
           href: johanna.qmd
+        - text: "Ninian Rodriguez"
+          href: ninian.qmd
       - text: "Comparative Analysis"
         href: comparison.qmd
 
