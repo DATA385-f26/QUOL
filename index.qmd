@@ -4,7 +4,7 @@ title: "Investigating a Dataset's Ingredients"
 
 ## Topic Area
 
-Our project focuses on the relationship between socioeconomic status and quality of life among adults in the United States. We chose this topic to explore how differences in income, education, and employment relate to people’s self-reported physical and mental health. Using the 2024 BRFSS dataset, we hope to identify patterns in health-related quality of life across socioeconomic groups.
+Our project focuses on the relationship between socioeconomic status and quality of life among adults in the United States. We chose this topic to explore how differences in income, education, and employment relate to people’s self-reported physical and mental health. Using the 2024 BRFSS data-set, we hope to identify patterns in health-related quality of life across socioeconomic groups.
 
 
 ## Research Question
