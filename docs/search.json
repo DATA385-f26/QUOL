@@ -40,5 +40,68 @@
     "title": "Data Collection Facts Label",
     "section": "",
     "text": "Data Source Facts Label\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource Identity\n\n\n\n\n\n\nSource name\n\n\nSmart Location Database\n\n\n\n\nDomain/topic\n\n\ntransportation\n\n\n\n\nSource type\n\n\nGovernment database\n\n\n\n\n\n\n\n\n\n\n\nCollection Context\n\n\n\n\n\n\nCollector/producer\n\n\nU.S. Environmental Protection Agency\n\n\n\n\nOriginal purpose\n\n\nTo measure location efficacy and travel demand modeling\n\n\n\n\nCollection method\n\n\nVariables calculated from other data sources and summarized for each census block group\n\n\n\n\nRecord-creation event\n\n\nEPA calculates and summarizes variables for each census block group\n\n\n\n\n\n\n\n\n\n\n\nObservation and Scope\n\n\n\n\n\n\nUnit of observation\n\n\nOne census block group\n\n\n\n\nPopulation or objects represented\n\n\nCensus block groups avross U.S. along with demographics, jobs, and built enviornment of each\n\n\n\n\nTime period covered\n\n\nNot explicity stated but it was last updated in 2013 but uses 2019 Census Block Group\n\n\n\n\nGeographic area coverage\n\n\nWhole U.S. country\n\n\n\n\n\n\n\n\n\n\n\nVariables and Data Structure\n\n\n\n\n\n\nMain variables/fields\n\n\nDemographic, employment, and built enviornment variables (residential and employment density, land use diversity, street design, access to destinations, and distance to transit)\n\n\n\n\nData types included\n\n\nNumerical and geographic\n\n\n\n\nDirect measurements\n\n\ndensity and distance-to-transit variables are the closest to measuring something directly\n\n\n\n\nPossible proxy variables\n\n\ntransit access, land use diversity, and walkability-type variables for quality of life\n\n\n\n\n\n\n\n\n\n\n\nDocumentation\n\n\n\n\n\n\nDocumentation found\n\n\nData.gov\n\n\n\n\nStated collection details\n\n\nAll the variables summarize demographic, employment, and built enviornment data for every block group. Update says uses 2019 Census Block Groups and new and expanded data sources. Calculation methods for some variables changed and specific sources and methods not stated"
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Comparative Analysis",
+    "section": "",
+    "text": "Demographic effects on quality of life."
+  },
+  {
+    "objectID": "analysis.html#topic-area",
+    "href": "analysis.html#topic-area",
+    "title": "Comparative Analysis",
+    "section": "",
+    "text": "Demographic effects on quality of life."
+  },
+  {
+    "objectID": "analysis.html#research-question",
+    "href": "analysis.html#research-question",
+    "title": "Comparative Analysis",
+    "section": "Research Question",
+    "text": "Research Question\nHow does one’s socioeconomic status relate to the perceived quality of life of adults in the United States?"
+  },
+  {
+    "objectID": "analysis.html#datasets-considered",
+    "href": "analysis.html#datasets-considered",
+    "title": "Comparative Analysis",
+    "section": "Datasets Considered",
+    "text": "Datasets Considered\n\n2024 BRFSS Survey Data and Documentation\nSmart Location Database\nSupplemental 2023 SAHIE Estimates"
+  },
+  {
+    "objectID": "analysis.html#trustworthiness-and-reputability",
+    "href": "analysis.html#trustworthiness-and-reputability",
+    "title": "Comparative Analysis",
+    "section": "Trustworthiness and Reputability",
+    "text": "Trustworthiness and Reputability\n\nSmart Location Database\nIn the Smart Location Database, it doesn’t explicitly say where the EPA got its data. It says the numbers were calculated from “other sources”, but never says or cites those sources. Also the years it’s been updated are a bit confusing because the page says it was last updated in 2013, but uses 2019 Census maps. When you try to dig deeper on the Walkability Index and the Smart Location Calculator, it asks you to email them on their data and methodology.\n\n\n2024 BRFSS\nThe BRFSS has official documentation from the CDC, including its survey methods, questionnaires, sampling procedures, and data descriptions. This makes the dataset reputable because it is collected by a federal public health agency using standardized methods.\nAlthough the data source label explains how information is collected, it does not provide specific response rates, the amount of missing data for individual variables, or how accurate participants’ self-reported answers are. Because BRFSS uses telephone surveys, some people may not be reached or may choose not to participate. Also, participants might misremember or inaccurately report their health information. These issues could affect the accuracy of the results, even though the CDC uses survey weights to reduce certain biases.\n\n\nSupplemental 2023 SAHIE Estimates\nThere are several visualizations, working papers, publications, and a coding tool that comes along with the SAHIE dataset. The API also works as a working codebook for the datasets.\nStarting with the 2008 SAHIE estimates, the SAHIE program updated its methodology to incorporate the estimates of health insurance coverage from the American Community Survey (ACS). The incorporation of the ACS into the modeling procedures has allowed for more detailed income group data as well as a higher level of precision in the estimates.\nBecause of how it incorporates surveys to the data, there is a greater issue of response and reporting bias, lending to a more opaque perspective of health insurance estimates.\nComparisons between ACS-based SAHIE estimates and estimates from before the 2008 methodology change are not recommended. Comparisons within the ACS-based series should follow Census Bureau guidance."
+  },
+  {
+    "objectID": "analysis.html#degree-of-relevance-to-the-research-question",
+    "href": "analysis.html#degree-of-relevance-to-the-research-question",
+    "title": "Comparative Analysis",
+    "section": "Degree of Relevance to the Research Question",
+    "text": "Degree of Relevance to the Research Question\n\nSupplemental 2023 SAHIE Estimates\nThe collection method for the SAHIE dataset can derive conclusions of some form of implicit bias within the data, as it typically does mail-in, telephone, live in person, or via online.\nSome proxies that would have to be considered are datasets pertaining to the income of the individual interviewed, as this dataset provides only one angle into the perspective of an individual’s quality of life.\n\n\n2024 BRFSS\nSince BRFSS collects self-reported survey data, researchers can identify patterns and relationships between demographics, behaviors, and health outcomes. However, they cannot establish cause and effect from these observations alone.\nIn a perfect world, I would be able to add the actual verified medical records or clinical measurements to compare against participants’ self-reported health information. This could help researchers understand whether survey responses reflect actual health conditions as well as drastically increasing confidence in the validity of data before making any conclusions."
+  },
+  {
+    "objectID": "analysis.html#ethical-soundness",
+    "href": "analysis.html#ethical-soundness",
+    "title": "Comparative Analysis",
+    "section": "Ethical Soundness",
+    "text": "Ethical Soundness\n\nPopulation Coverage\nThe American Community Survey requires that individuals have some form of address in order to complete said survey. This in of itself creates a large blindspot within the data, with respect to unhoused or individuals of a more transient habituation. There is no way to really have a more robust method to encapsulate the rate of health insurance coverage because of this.\n\n\nInterpretation of Results\nAnother concern is that the pure data results could reinforce negative stereotypes about lower-income populations that accidentally implies causation through correlation. We should take note to avoid assuming that socioeconomic status alone determines someone’s health or quality of life."
+  },
+  {
+    "objectID": "analysis.html#scope",
+    "href": "analysis.html#scope",
+    "title": "Comparative Analysis",
+    "section": "Scope",
+    "text": "Scope\n\nSmart Location Database\nIn the Smart Location Database, one row represents one census block group, as in a small neighborhood-sized area, along with its own set of calculated demographic, employment, and built environment variables.\n\n\nSupplemental 2023 SAHIE Estimates\nWithin SAHIE, each row represents model-based health insurance estimates for a demographic and income group within a state or county, rather than an individual survey respondent.\n\n\n2024 BRFSS\nBRFSS represents adults aged 18 and older living in noninstitutional settings across participating U.S. states and territories. The 2024 dataset includes 457,670 respondents but excludes Tennessee and people living in institutions such as prisons or nursing homes.\nThis dataset is relevant to our research question because it contains both socioeconomic and health-related variables, allowing us to compare health outcomes across different income, education, and employment groups."
+  },
+  {
+    "objectID": "analysis.html#which-source-best-fits-our-research-question",
+    "href": "analysis.html#which-source-best-fits-our-research-question",
+    "title": "Comparative Analysis",
+    "section": "Which Source Best Fits Our Research Question?",
+    "text": "Which Source Best Fits Our Research Question?\n\nSelected Source: 2024 BRFSS\nWe decided to choose the 2024 BRFSS dataset to answer our research question because it includes information about socioeconomic factors, such as income, education, and employment, along with physical and mental health outcomes. This allows us to compare how quality of life differs among adults from different socioeconomic backgrounds.\nThe dataset also includes over 450,000 respondents across the United States, giving us a large sample to identify patterns and relationships. Although the information is self-reported and cannot establish cause and effect, it provides a reliable starting point for understanding how socioeconomic status relates to physical and mental health.\n\n\nComparison with SAHIE\nThe SAHIE dataset provides a narrower perspective into the quality of life of the individual based on certain factors and attributes within their life. Compared to the range and scope of the BRFSS dataset, it follows that perhaps SAHIE may serve better as an auxiliary source rather than a focus for the research question.\n\n\nComparison with the Smart Location Database\nWhen it comes to the research question, the BRFSS dataset has a wider scope of socioeconomic qualities we can choose from. With the Smart Location Database, it is more specific to one area, which is more focused on the accessibility of public transportation."
   }
 ]
