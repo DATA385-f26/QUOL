@@ -4,8 +4,11 @@ title: "Investigating a Dataset's Ingredients"
 
 ## Topic Area
 
-Introduce your topic area. What did you choose, why did you choose it? 
+The topic we ended up exploring was whether or not different pieces of data
+correlated to the quality of life of an individual. 
 
 ## Research Question
 
-State your research question that you hope to answer with data. 
+The research question we would hope to answer is identifying whether or not
+rates of asthma are correlated with other domestic environmental factors. 
+(Housing, local school funding, cost of living, etc)
