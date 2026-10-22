@@ -19,8 +19,8 @@ website:
         menu:
         - text: "Brandon Tran"
           href: brandontran.qmd
-        - text: "Person 2"
-          href: person2.qmd
+        - text: "Johanna Alvarado"
+          href: johanna.qmd
       - text: "Comparative Analysis"
         href: comparison.qmd
 
