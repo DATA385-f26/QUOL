@@ -4,11 +4,9 @@ title: "Investigating a Dataset's Ingredients"
 
 ## Topic Area
 
-The topic we ended up exploring was whether or not different pieces of data
-correlated to the quality of life of an individual. 
+Our project focuses on the relationship between socioeconomic status and quality of life among adults in the United States. We chose this topic to explore how differences in income, education, and employment relate to people’s self-reported physical and mental health. Using the 2024 BRFSS dataset, we hope to identify patterns in health-related quality of life across socioeconomic groups.
+
 
 ## Research Question
 
-The research question we would hope to answer is identifying whether or not
-rates of asthma are correlated with other domestic environmental factors. 
-(Housing, local school funding, cost of living, etc)
+How does socioeconomic status, including income, education, and employment, relate to perceived health-related quality of life among adults in the United States?
