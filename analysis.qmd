@@ -1,0 +1,97 @@
+---
+title: "Comparative Analysis"
+format: html
+toc: true
+---
+
+## Topic Area
+
+Demographic effects on quality of life.
+
+## Research Question
+
+How does one’s socioeconomic status relate to the perceived quality of life of adults in the United States?
+
+## Datasets Considered
+
+- 2024 BRFSS Survey Data and Documentation
+- Smart Location Database
+- Supplemental 2023 SAHIE Estimates
+
+## Trustworthiness and Reputability
+
+### Smart Location Database
+
+In the Smart Location Database, it doesn’t explicitly say where the EPA got its data. It says the numbers were calculated from “other sources”, but never says or cites those sources. Also the years it’s been updated are a bit confusing because the page says it was last updated in 2013, but uses 2019 Census maps. When you try to dig deeper on the Walkability Index and the Smart Location Calculator, it asks you to email them on their data and methodology.
+
+### 2024 BRFSS
+
+The BRFSS has official documentation from the CDC, including its survey methods, questionnaires, sampling procedures, and data descriptions. This makes the dataset reputable because it is collected by a federal public health agency using standardized methods.
+
+Although the data source label explains how information is collected, it does not provide specific response rates, the amount of missing data for individual variables, or how accurate participants' self-reported answers are. Because BRFSS uses telephone surveys, some people may not be reached or may choose not to participate. Also, participants might misremember or inaccurately report their health information. These issues could affect the accuracy of the results, even though the CDC uses survey weights to reduce certain biases.
+
+### Supplemental 2023 SAHIE Estimates
+
+There are several visualizations, working papers, publications, and a coding tool that comes along with the SAHIE dataset. The API also works as a working codebook for the datasets.
+
+Starting with the 2008 SAHIE estimates, the SAHIE program updated its methodology to incorporate the estimates of health insurance coverage from the American Community Survey (ACS). The incorporation of the ACS into the modeling procedures has allowed for more detailed income group data as well as a higher level of precision in the estimates.
+
+Because of how it incorporates surveys to the data, there is a greater issue of response and reporting bias, lending to a more opaque perspective of health insurance estimates.
+
+Comparisons between ACS-based SAHIE estimates and estimates from before the 2008 methodology change are not recommended. Comparisons within the ACS-based series should follow Census Bureau guidance.
+
+## Degree of Relevance to the Research Question
+
+### Supplemental 2023 SAHIE Estimates
+
+The collection method for the SAHIE dataset can derive conclusions of some form of implicit bias within the data, as it typically does mail-in, telephone, live in person, or via online.
+
+Some proxies that would have to be considered are datasets pertaining to the income of the individual interviewed, as this dataset provides only one angle into the perspective of an individual’s quality of life.
+
+### 2024 BRFSS
+
+Since BRFSS collects self-reported survey data, researchers can identify patterns and relationships between demographics, behaviors, and health outcomes. However, they cannot establish cause and effect from these observations alone.
+
+In a perfect world, I would be able to add the actual verified medical records or clinical measurements to compare against participants' self-reported health information. This could help researchers understand whether survey responses reflect actual health conditions as well as drastically increasing confidence in the validity of data before making any conclusions.
+
+## Ethical Soundness
+
+### Population Coverage
+
+The American Community Survey requires that individuals have some form of address in order to complete said survey. This in of itself creates a large blindspot within the data, with respect to unhoused or individuals of a more transient habituation. There is no way to really have a more robust method to encapsulate the rate of health insurance coverage because of this.
+
+### Interpretation of Results
+
+Another concern is that the pure data results could reinforce negative stereotypes about lower-income populations that accidentally implies causation through correlation. We should take note to avoid assuming that socioeconomic status alone determines someone’s health or quality of life.
+
+## Scope
+
+### Smart Location Database
+
+In the Smart Location Database, one row represents one census block group, as in a small neighborhood-sized area, along with its own set of calculated demographic, employment, and built environment variables.
+
+### Supplemental 2023 SAHIE Estimates
+
+Within SAHIE, each row represents model-based health insurance estimates for a demographic and income group within a state or county, rather than an individual survey respondent.
+
+### 2024 BRFSS
+
+BRFSS represents adults aged 18 and older living in noninstitutional settings across participating U.S. states and territories. The 2024 dataset includes 457,670 respondents but excludes Tennessee and people living in institutions such as prisons or nursing homes.
+
+This dataset is relevant to our research question because it contains both socioeconomic and health-related variables, allowing us to compare health outcomes across different income, education, and employment groups.
+
+## Which Source Best Fits Our Research Question?
+
+### Selected Source: 2024 BRFSS
+
+We decided to choose the 2024 BRFSS dataset to answer our research question because it includes information about socioeconomic factors, such as income, education, and employment, along with physical and mental health outcomes. This allows us to compare how quality of life differs among adults from different socioeconomic backgrounds.
+
+The dataset also includes over 450,000 respondents across the United States, giving us a large sample to identify patterns and relationships. Although the information is self-reported and cannot establish cause and effect, it provides a reliable starting point for understanding how socioeconomic status relates to physical and mental health.
+
+### Comparison with SAHIE
+
+The SAHIE dataset provides a narrower perspective into the quality of life of the individual based on certain factors and attributes within their life. Compared to the range and scope of the BRFSS dataset, it follows that perhaps SAHIE may serve better as an auxiliary source rather than a focus for the research question.
+
+### Comparison with the Smart Location Database
+
+When it comes to the research question, the BRFSS dataset has a wider scope of socioeconomic qualities we can choose from. With the Smart Location Database, it is more specific to one area, which is more focused on the accessibility of public transportation.

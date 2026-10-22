@@ -7,14 +7,16 @@ project:
 
 website:
   page-navigation: true
-  title: "TITLE"
-  description: "Project 01: Data Collection Facts Label"
+  title: "Socioeconomic Status and It's Effect on Quality of Life"
+  description: "Exploring how socioeconomic status relates to health-related quality of life among U.S. adults."
 
   navbar: 
     pinned: true
     left: 
       - text: Overview
         file: index.qmd
+      - text: "Comparative Analysis"
+        href: analysis.qmd
       - text: Dataset Details
         menu:
         - text: "Brandon Tran"
